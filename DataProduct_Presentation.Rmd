@@ -34,7 +34,7 @@ This presentation is created as part of the course project of the *Developing Da
 - R presentation that introduces the above application
 
 All related files can be found in my GitHub repository
-<https://github.com/inmyprime/DevelopingDataProductsCourseProject>.
+<https://github.com/myrba2win/Developing_Data_Products_Shiny_App>.
 
 ## Instructions
 This application is based on the course project of statistical inference class of the data science specialisation.
