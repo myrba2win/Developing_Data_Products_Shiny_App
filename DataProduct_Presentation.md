@@ -3,8 +3,10 @@ title: "Developing Data Products"
 subtitle: JHU - Shiny Application and Reproducible Pitch
 author: "Myr Balada"
 date: "26/12/2020"
-output: ioslides_presentation
-autosize: True
+output: 
+  ioslides_presentation:
+    widescreen: true
+    smaller: true
 ---
 
 
@@ -35,7 +37,7 @@ In this application, we are able to change the number of simulations (e.g. 1000)
 Outputs include two plots and comparison of theoretical and sample mean and variance.
 
 ## Application Interface
-<img src="./AppInterface3.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" width="60%" />
+<img src="./AppInterface4_3.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" width="80%" />
 
 ## Simplified example code of the sample mean calculation in the server
 

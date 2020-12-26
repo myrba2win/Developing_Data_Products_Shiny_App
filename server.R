@@ -41,14 +41,16 @@ shinyServer(function(input, output) {
     expseq <- rexp(nosim,lambda)
     # Plot the distribution of these numbers
     ggplot(data.frame(expseq),aes(x=expseq)) + 
-      geom_histogram(aes(y=..density..), bins=30, colour="black",fill="white")
+      geom_histogram(aes(y=..density..), bins=30, colour="black",fill="cyan4") + 
+      labs(title="Exponential Distribution")
   })
   
   output$plot2 <- renderPlot({
     mns <- getExpoMeans()
     
     g <- ggplot(data.frame(mns),aes(x=mns)) +
-      geom_histogram(aes(y=..density..), bins=30, colour="black", fill="white")
+      geom_histogram(aes(y=..density..), bins=30, colour="black", fill="cyan4") + 
+      labs(title="Distribution of the Mean")
     
     if(input$showSampleMean){
       g <- g + geom_vline(aes(xintercept=mean(mns)), color="red", size=1)

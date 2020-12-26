@@ -21,7 +21,7 @@ library(png)      # For grabbing the dimensions of png files```
 
 
 ```{r, echo=FALSE}
-img1_path <- "AppInterface3.PNG"
+img1_path <- "AppInterface4_3.PNG"
 img1 <- readPNG(img1_path, native = TRUE, info = TRUE)
 ##attr(img1, "info")
 ```
@@ -47,7 +47,7 @@ In this application, we are able to change the number of simulations (e.g. 1000)
 Outputs include two plots and comparison of theoretical and sample mean and variance.
 
 ## Application Interface
-```{r, echo = FALSE, out.width="50%", fig.align = "center"}
+```{r, echo = FALSE, out.width="80%", dpi=700, fig.align = "center"}
 myimages<-list.files(pattern = ".png", full.names = TRUE)
 include_graphics(myimages)
 ```
