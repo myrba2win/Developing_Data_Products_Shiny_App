@@ -20,7 +20,7 @@ output:
 
 This presentation is created as part of the course project of the *Developing Data Products* course in the data science specialization. The project consists of the following two parts:
 
-- Shiny application demonstrating the investigation of exponential distribution <https://inmyprime.shinyapps.io/developing_data_products_course_project/>.
+- Shiny application demonstrating the investigation of exponential distribution <https://myrba2win.shinyapps.io/shinyapps/>.
 - R presentation that introduces the above application
 
 All related files can be found in my GitHub repository
