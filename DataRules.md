@@ -13,3 +13,12 @@ The variables can be easily changed by the user when interacting directly with t
 - Two plots that show the distribution of the exponentials and the distribution of the means of the exponentials. The latter should be approximately normal.
 - Both the theoretical and sample values of the mean and variance of the average of the exponentials, which should be very close.
 - Up to user's choice, a red line indicating the sample mean can be shown on the second plot.
+
+## References
+This presentation is created as part of the course project of the *Developing Data Products* course in the data science specialization. The project consists of the following two parts:
+
+- Shiny application demonstrating the investigation of exponential distribution <https://myrba2win.shinyapps.io/shinyapps/>.
+- **R presentation that introduces the above application**
+
+- All related files can be found in my GitHub repository
+<https://github.com/myrba2win/Developing_Data_Products_Shiny_App>.
